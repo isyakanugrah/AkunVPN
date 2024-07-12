@@ -1,11 +1,11 @@
 proxies: 
 - name: Simple-Sub
-    server: vip-do.webkuy.my.id
+    server: df.game.naver.com
     port: 443
     type: trojan
     password: 5ef2bc33-c7ec-444b-8f34-f04c636a3c2f
     skip-cert-verify: true
-    sni: bug.com
+    sni: vip-do.webkuy.my.id
     network: ws
     ws-opts: 
       path: /trojan

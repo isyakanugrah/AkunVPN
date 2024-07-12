@@ -12,3 +12,16 @@ proxies:
       headers: 
         Host: vip-do.webkuy.my.id
     udp: true
+- name: Biz
+    server: quiz.vidio.com
+    port: 443
+    type: trojan
+    password: PxP0t1LRD5OpkmraUIUzNw
+    skip-cert-verify: true
+    sni: id04bz.cobeksawit.biz.id
+    network: ws
+    ws-opts: 
+      path: /trojan
+      headers: 
+        Host: id04bz.cobeksawit.biz.id
+    udp: true
